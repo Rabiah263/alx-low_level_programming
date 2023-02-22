@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * int _abs - computes the absolute value of an integer.
- *
+ * _abs - computes the absolute value of an integer.
+ * @s: the character to be checked
  * Return: the absolute value of an integer
  */
 
