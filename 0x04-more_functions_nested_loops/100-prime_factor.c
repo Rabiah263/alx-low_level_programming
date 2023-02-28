@@ -8,8 +8,7 @@
 
 int main(void)
 {
-	long t = 612852475143;
-	long s;
+	long t = 612852475143, s;
 
 	while (s < (t / 2))
 	{
