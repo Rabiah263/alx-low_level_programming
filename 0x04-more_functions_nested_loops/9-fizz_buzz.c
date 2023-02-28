@@ -18,7 +18,7 @@ int main(void)
 			printf("FizzBuzz");
 		else if ((k % 3) == 0)
 			printf("Fizz");
-		else if ((k % 3) == 0)
+		else if ((k % 5) == 0)
 			printf("Buzz");
 		else
 			printf("%d", k);
