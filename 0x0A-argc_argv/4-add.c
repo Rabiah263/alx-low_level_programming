@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 		{
 			if (argv[m][n] < '0' || argv[m][n] > '9')
 			{
-				printf("Error");
+				printf("Error\n");
 				return (1);
 			}
 		}
@@ -31,6 +31,7 @@ int main(int argc, char *argv[])
 		p += atoi(argv[m]);
 	}
 
-	printf("%d\n", p);
+	printf("%d\n", m);
+
 	return (0);
 }
