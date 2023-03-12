@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 {
 	int m; /* the number */
 	int n; /* the digit */
-	int p; /* the addition */
+	int p = 0; /* the addition */
 
 	for (m = 1; m < argc; m++)
 	{
