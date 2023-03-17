@@ -24,7 +24,8 @@ char *_memset(char *s, char b, unsigned int n)
  * @nmemb: the number of the array element.
  * @size: the size of each the element in the array
  * Return: a pointer to the allocated memory.
- *         If nmemb or size is 0, then _calloc returns NU           LLIf malloc fails, then _calloc returns NULL
+ *         If nmemb or size is 0, then _calloc returns NULL
+ *         If malloc fails, then _calloc returns NULL
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
